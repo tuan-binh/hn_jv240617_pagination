@@ -1,6 +1,7 @@
 package com.ra.pagination.controller;
 
 import com.ra.pagination.model.service.IUserService;
+import org.mindrot.jbcrypt.BCrypt;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
