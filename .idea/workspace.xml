@@ -5,18 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6967332d-987e-418a-bd2d-6a6bf1389fa5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ra/pagination/model/entity/CartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ra/pagination/model/entity/CompositeKeyCartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ra/pagination/model/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ra/pagination/model/entity/Roles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ra/pagination/model/entity/ShoppingCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9dea3447-01b9-434e-9bf4-6c1758de71d7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9dea3447-01b9-434e-9bf4-6c1758de71d7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ra/pagination/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ra/pagination/model/dao/IProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ra/pagination/model/dao/impl/ProductDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ra/pagination/model/dto/request/ProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ra/pagination/model/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ra/pagination/model/service/impl/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ra/pagination/model/service/impl/UploadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add_product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ra/pagination/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ra/pagination/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ra/pagination/model/entity/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ra/pagination/model/entity/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ra/pagination/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ra/pagination/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ra/pagination/model/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ra/pagination/model/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ra/pagination/model/entity/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ra/pagination/model/entity/ShoppingCart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +34,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -145,7 +147,8 @@
       <workItem from="1728609656131" duration="56000" />
       <workItem from="1728609718701" duration="561000" />
       <workItem from="1728610286262" duration="637000" />
-      <workItem from="1728610932620" duration="924000" />
+      <workItem from="1728610932620" duration="1632000" />
+      <workItem from="1728613232641" duration="5705000" />
     </task>
     <servers />
   </component>

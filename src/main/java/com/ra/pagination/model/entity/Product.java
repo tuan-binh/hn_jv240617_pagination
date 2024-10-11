@@ -10,10 +10,12 @@ public class Product
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String name;
     private String description;
     private Double price;
+
+    private String image;
+
     private Integer stock;
     private Boolean status;
 
@@ -29,6 +31,16 @@ public class Product
         this.price = price;
         this.stock = stock;
         this.status = status;
+    }
+
+    public String getImage()
+    {
+        return image;
+    }
+
+    public void setImage(String image)
+    {
+        this.image = image;
     }
 
     public Long getId()

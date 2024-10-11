@@ -21,5 +21,4 @@ public class ShoppingCart
 
     private Integer quantity;
 
-
 }
